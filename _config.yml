@@ -3,6 +3,6 @@
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
 theme: jekyll-theme-cayman
 title: 2024年度 多変数関数論冬セミナー
-description: 2024年12月13-15日
+# description: 2024年12月13-15日
 # theme: jekyll-theme-cayman
 
