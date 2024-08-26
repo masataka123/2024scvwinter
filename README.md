@@ -100,8 +100,11 @@ Here is the PDF file of program and abstracts. [Program](https://masataka123.git
 何かご質問がありましたら, 岩井(masataka[at]math.sci.osaka-u.ac.jp)までご連絡ください.
 
 
-## Supports  (KAKENHI)
-- JSPS KAKENHI 22K13907 Grant-in-Aid for Early Career Scientists. 
+## 科研費
+この集会は以下の科学研究費補助金の補助により開催されます.
+-  基盤研究(A)「複素多様体の解析幾何」（代表：平地 健吾（東京大学）課題番号20H00116 ）
+-  若手研究「オービフォルド構造に注目した非負曲率の研究および代数多様体の分類理論への応用」 （代表：岩井 雅崇（大阪大学）課題番号22K13907 ）
+
 
 
 ## 過去の多変数関数論冬セミナー
