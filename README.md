@@ -77,9 +77,18 @@ Rank two weak Fano bundles over Fano threefolds of Picard rank one
 Kodaira vanishing for smooth Fano threefolds in positive characteristic
 -->
 
+## 懇親会
+冬セミナーの懇親会を以下の通りに開催いたします. 
+
+- 日時：12月14日（土）18時から
+- 場所：らふぉれ（大阪大学豊中キャンパス内）
+- 会費：学生・ポスドク2,000円、その他5,000円の予定
+
+懇親会に参加される方はこちらの[Google フォーム](https://forms.gle/xzvVCPdJbb9NB7oe6)に参加登録をしていただければ幸いです. 
+
 ##  プログラム
 
-2024年11月ごろにお知らせいたします. 
+2024年11月下旬にお知らせいたします. 
 
 <!--
 Here is the PDF file of program and abstracts. [Program](https://masataka123.github.io/tangent_anticanonical/material/program_tangent_anticanonical.pdf)
