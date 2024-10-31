@@ -114,7 +114,7 @@ Here is the PDF file of program and abstracts. [Program](https://masataka123.git
 - [岩井 雅崇](https://masataka123.github.io/blog3_e/) (大阪大学)
 - [松本 佳彦](http://www4.math.sci.osaka-u.ac.jp/~matsumoto/) (大阪大学)
 
-何かご質問がありましたら, 岩井(masataka[at]math.sci.osaka-u.ac.jp)までご連絡ください.
+何かご質問がありましたら, 岩井(masataka[at]math.sci.osaka-u.ac.jp)または松本(matsumoto.yoshihiko.sci[at]osaka-u.ac.jp)までご連絡ください.
 
 
 ## 科研費
