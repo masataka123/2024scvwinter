@@ -1,0 +1,355 @@
+\documentclass[dvipdfmx,a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[dvipdfmx]{hyperref} %リンクを有効にする
+\usepackage{url} %同上
+\usepackage{amsmath,amssymb} %もちろん
+\usepackage{amsfonts,amsthm,mathtools} %もちろん
+\usepackage{braket,physics} %あると便利なやつ
+\usepackage{bm} %ラプラシアンで使った
+\usepackage[top=30truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry} %余白設定
+\usepackage{latexsym} %ごくたまに必要になる
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+\usepackage{otf} %宗教上の理由でmin10が嫌いなので
+
+
+\usepackage[all]{xy}
+\usepackage{amsthm,amsmath,amssymb,comment}
+\usepackage{amsmath}    % \UTF{00E6}\UTF{0095}°\UTF{00E5}\UTF{00AD}\UTF{00A6}\UTF{00E7}\UTF{0094}¨
+\usepackage{amssymb}  
+\usepackage{color}
+\usepackage{amscd}
+\usepackage{amsthm}  
+\usepackage{wrapfig}
+\usepackage{comment}	
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{pxrubrica}
+\usepackage{enumitem}
+\usepackage{mathrsfs} 
+\usepackage[dvipdfmx]{hyperref}
+\setstretch{1.2}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+
+
+%%%%%%%%% Theorem-like environment %%%%%%%%%%%
+%
+\theoremstyle{plain} %text of this environment is typesetted in italics
+\newtheorem{theorem}{\indent\sc Theorem}[section]
+\newtheorem{lemma}[theorem]{\indent\sc Lemma}
+\newtheorem{corollary}[theorem]{\indent\sc Corollary}
+\newtheorem{proposition}[theorem]{\indent\sc Proposition}
+\newtheorem{claim}[theorem]{\indent\sc Claim}
+\newtheorem{conjecture}[theorem]{\indent\sc Conjecture}
+%
+\theoremstyle{definition} %text of this environment is typesetted in roman letters
+\newtheorem{definition}[theorem]{\indent\sc Definition}
+\newtheorem{remark}[theorem]{\indent\sc Remark}
+\newtheorem{example}[theorem]{\indent\sc Example}
+\newtheorem{notation}[theorem]{\indent\sc Notation}
+\newtheorem{assertion}[theorem]{\indent\sc Assertion}
+\newtheorem{observation}[theorem]{\indent\sc Observation}
+\newtheorem{problem}[theorem]{\indent\sc Problem}
+\newtheorem{question}[theorem]{\indent\sc Question}
+%
+%If a theorem-like environment should not be numbered,
+%add * after \newtheorem, and delete the counter option such as [theorem].
+\newtheorem*{remark0}{\indent\sc Remark}
+%
+%%%%% Proof %%%%%
+\renewcommand{\proofname}{\indent\sc Proof.}
+%The following commands are available in the proof environment:
+%\begin{proof}
+%\end{proof}
+%The end of a proof is marked with a square.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+  {\LARGE 2024年度 多変数関数論冬セミナー}
+ 
+  %{\large -Around positivity of tangent sheaves and anti-canonical divisors-}
+  %\vskip2mm{\LARGE Prospects and Open Problems \\ in Higher-dimensional Algebraic Geometry}
+  \end{center}
+  
+\vskip5mm
+\begin{flushleft}
+{\large 日時: 2024年12月13日（金）午後 -- 15日（日）午前}
+
+
+{\large 場所: 大阪大学 南部陽一郎ホール (豊中キャンパス)}
+
+\end{flushleft}
+
+
+%\footnote{ホームページ: \texttt{https://sites.google.com/site/hisashikasuyamath/workshop-on-complex-geometry-in-osaka-2023?authuser=0}}
+%\footnote{This conference is supported by Osaka City University Advanced Mathematical Institute: MEXT Joint Usage/Research Center on Mathematics and Theoretical Physics.}
+
+
+\vskip5mm
+\noindent{\Large \bf プログラム}
+\vskip3mm
+
+\noindent{\bf 12/13 (金)}
+\vskip1mm
+\noindent {\bf 13:00-14:00}
+{\bf 丸亀 泰二 (電気通信大学)}\\
+Chains on twistor CR manifolds and conformal geodesics in dimension three 
+\vskip3mm
+
+\noindent {\bf 14:30-15:30} 
+{\bf 松田 凌 (京都大学)}\\
+退化擬等角写像のタイヒミュラー空間論に向けて
+\vskip3mm
+
+\noindent {\bf16:00-17:00} 
+{\bf 渡邊 祐太 (中央大学)}\\
+Bigness of adjoint linear subsystem and approximation theorems with ideal sheaves on weakly pseudoconvex manifolds
+
+
+\vskip5mm
+
+
+\noindent{\bf 12/14 (土)}
+\vskip1mm
+\noindent {\bf 10:00-11:00}
+{\bf 山ノ井 克俊 (大阪大学)}\\
+準アーベル多様体から作られるspecial多様体について
+\vskip3mm
+
+\noindent {\bf 11:30-12:30}
+{\bf 鈴木 良明 (新潟大学) }\\
+The spectrum of the Folland-Stein operator on some Heisenberg Bieberbach manifolds
+\vskip3mm
+
+\noindent {\bf 14:30-15:30} 
+{\bf 上野 康平 (大同大学)}\\
+Newton polygons and B\"{o}ttcher coordinates for skew products: 
+superattracting case and polynomial case
+\vskip3mm
+
+\noindent {\bf16:00-17:00} 
+{\bf 青井 顕宏 (和歌山工業高等専門学校)}\\
+Microscopic stability thresholds and constant scalar curvature Kähler metrics
+\vskip5mm
+
+\noindent{\bf 12/15 (日)}
+\vskip1mm
+\noindent {\bf 10:00-11:00}
+{\bf 奥間 智弘 (山形大学)}\\
+正規複素曲面特異点の正規還元種数について
+\vskip3mm
+
+\noindent {\bf 11:30-12:30}
+{\bf 杉山 俊 (北九州工業高等専門学校)}\\
+Holomorphic line bundles and divisors on Riemann domains over Cohen-Macaulay Stein spaces
+\vskip5mm
+
+\newpage 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+
+\begin{center}
+テイムテーブル(敬称略)
+\end{center}
+\begin{center}
+\hspace{-22pt}
+\begin{tabular}{|c|c|c|c|}
+  \hline
+			  & 12/13 (金) & 12/14 (土) &12/15(日)  \\
+  \hline
+ 10:00-11:00&   & 山ノ井 & 奥間\\
+  \hline
+ 11:30-12:30& \begin{tabular}{c}丸亀\\(13:00-14:00) \end{tabular}& 鈴木  & 杉山   \\
+  \hline
+ 14:30-15:30& 松田& 上野 & \\
+  \hline
+ 16:00-17:00&  渡邊& 青井 &  \\
+   \hline
+\end{tabular}
+\end{center}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+
+\vskip10mm
+\hspace{-22pt}
+\begin{tabular}{|c|c|}
+  \hline
+			  & 9/17 \\
+  \hline
+ 13:00-14:00& Sho Tanimoto\\
+  \hline
+ 14:30-15:30& Takuzo Okada\\
+  \hline
+ 16:00-17:00&  Taro Yoshino   \\
+   \hline
+\end{tabular}
+\vskip5mm
+
+\hspace{-22pt}
+\begin{tabular}{|c|c|c|c|}
+  \hline
+			  & 9/18&9/19 & 9/20 \\
+  \hline
+ 10:00-11:00&    Akihiro Kanemitsu & Hirotaka Onuki & Hara Wahei \\
+  \hline
+ 11:30-12:30&  Jie Liu  & Fuetaro Yobuko& Tatsuro Kawakami   \\
+  \hline
+ 14:30-15:30& Juanyong Wang & Hiromu Tanaka& \\
+  \hline
+ 16:00-17:00&   Guolei Zhong & Yuta Takahashi &  \\
+   \hline
+\end{tabular}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+  
+  
+\noindent{\large \bf 補助}
+
+この集会は以下の科学研究費補助金の補助により開催されます.
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item 基盤研究(A)「複素多様体の解析幾何」 
+(代表：平地 健吾（東京大学） 課題番号20H00116)
+\item 若手研究「オービフォルド構造に注目した非負曲率の研究および代数多様体の分類理論への応用」
+ (代表：岩井 雅崇（大阪大学） 課題番号22K13907)
+  \end{itemize}
+
+\vskip5mm
+\noindent{\large 懇親会のお知らせ}
+
+2024年度多変数関数論冬セミナーの懇親会は以下の通りに開催いたします.
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item[日時] 12月14日（土）18時から
+\item[場所] らふぉれ（大阪大学豊中キャンパス内）
+\item[会費] 学生・ポスドク2,000円、その他5,000円の予定
+  \end{itemize}
+
+\vskip5mm
+\noindent{\large \bf 会場へのアクセス}
+
+大阪大学 南部陽一郎ホール (豊中キャンパス)へのアクセス方法は2つあります.
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item 柴原阪大前駅 (大阪モノレール)から徒歩8分
+\item 石橋阪大前駅 (阪急電鉄)から徒歩30分
+\end{itemize}
+
+集会のホームページ( \url{https://masataka123.github.io/2024scvwinter/} )にて詳しいアクセス方法を掲載しております. 下のQRコードからでも集会のホームページを見ることができます. 
+
+\begin{figure}[htbp]
+\begin{center}
+ \includegraphics[height=50mm, width=50mm]{2024scvwinter.png}
+\end{center}
+\end{figure}
+
+  \vskip5mm
+  
+  \noindent{\large \bf 世話人}
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item 岩井 雅崇 (大阪大学)
+\item 松本 佳彦 (大阪大学)
+  \end{itemize}
+
+
+\newpage
+
+\noindent{\Large \bf アブストラクト}
+\vskip5mm
+
+\noindent{\large \bf 12/13 (金曜日)}
+\vskip5mm
+\noindent {\bf 丸亀 泰二 (電気通信大学)}\\
+Chains on twistor CR manifolds and conformal geodesics in dimension three 
+\vskip3mm
+任意の3次元共形多様体$(\Sigma^3, [g])$に対し，ツイスターCR多様体と呼ばれる5次元Lorentz CR多様体$M$が定義される．$M$は，$\Sigma$上の計量$g$を固定すると，$(\Sigma, g)$の単位接球面束と同一視できる．この講演では，$M$に対するFefferman計量(CR多様体の$S^1$束上に自然に定まる共形計量)を，$(\Sigma, g)$のフレーム束上に具体的に構成し，$M$上の自然な曲線族である(null) chainの射影が，$\Sigma$上の共形測地線となることを説明する．応用として，捩率関数の積分を用いた共形測地線の変分的特徴づけを与える． 
+\vskip8mm
+
+\noindent {\bf 松田 凌 (京都大学)}\\
+退化擬等角写像のタイヒミュラー空間論に向けて
+\vskip3mm
+タイヒミュラー空間とは, 擬等角写像のタイヒミュラー同値類である. また, 擬等角写像は可測型Riemannの写像定理から,$\| \mu \|_{L^\infty} < 1$ を満たすものから本質的には決定される. したがって, その境界を調べるには, $\| \mu \|_{L^\infty} = 1$ を満たす, 退化擬等角写像が対応してそうである. 今回は, 実際に無限型Riemann面のTeichmüller空間のBers境界に現れる退化擬等角写像の例を紹介する. また, そのような退化擬等角写像たちの擬等角安定性や退化擬等角写像のある種の近傍ではBers射影が連続に定義できることを述べたい. 
+\vskip8mm
+
+\noindent {\bf 渡邊 祐太 (中央大学)}\\
+Bigness of adjoint linear subsystem and approximation theorems with ideal sheaves on weakly pseudoconvex manifolds
+\vskip3mm
+Let $X$ be a weakly pseudoconvex manifold and $L\longrightarrow X$ be a holomorphic line bundle with a singular positive Hermitian metric $h$. In this talk, we provide a points separation theorem and an embedding for the adjoint linear subsystem including the multiplier ideal sheaf $\mathscr{I}(h^m)$. To handle analytical methods, we first establish an approximation of singular Hermitian metrics on relatively compact subsets from Demailly's approximation that preserves ideal sheaves and is compatible with blow-ups. 
+Furthermore, we establish the approximation theorem for holomorphic sections of the adjoint bundle including the multiplier ideal sheaf, i.e. $K_X\otimes L\otimes\mathscr{I}(h)$, as a key result in the process of globalizing. Using these results, we can achieve points separation on each \(X_c\setminus Z_c\), where \(Z_c\) is an analytic subset obtained as a singular locus of the approximation, and then globalize this to provide embeddings. 
+\vskip5mm
+
+\newpage
+
+\noindent{\large \bf 12/14 (土曜日)}
+\vskip5mm
+
+\noindent {\bf 山ノ井 克俊 (大阪大学)}\\
+準アーベル多様体から作られるspecial多様体について
+\vskip3mm
+special多様体には稠密なentire curveが存在すると予想されています。この講演では、準アーベル多様体から作られる準射影多様体について、この問題を考えます。
+\vskip8mm
+
+
+\noindent {\bf 鈴木 良明 (新潟大学) }\\
+The spectrum of the Folland-Stein operator on some Heisenberg Bieberbach manifolds
+\vskip3mm
+Heisenberg Bieberbach多様体とは、Heisenberg群とユニタリ群との半直積における離散かつ捩れの無い部分群によってHeisenberg群を割って得られるコンパクト商のことである。この商多様体は、Heisenberg群を自身の離散部分群で割ったコンパクト商(Heisenberg冪零多様体)をさらに有限群で割った空間になっている。この講演では3次元Heisenberg Bieberbach多様体上のFolland-Stein作用素と呼ばれるCR幾何由来の微分作用素の固有値と固有空間について考察する。Heisenberg Bieberbach多様体の被覆空間であるHeisenberg冪零多様体に対しては、2004年にFollandによってFolland-Stein作用素の固有値と固有関数が明示的に求められている。Follandの手法を応用し、3次元Heisenberg Bieberbach多様体のいくつかの例に対してもFolland-Stein作用素の固有値と固有空間の次元を求めることができることを紹介する。
+\vskip8mm
+
+
+\noindent {\bf 上野 康平 (大同大学)}\\
+Newton polygons and B\"{o}ttcher coordinates for skew products: 
+superattracting case and polynomial case
+\vskip3mm
+Let $f(z,w)=(p(z),q(z,w))$ be a superattracting or polynomial skew product. Under one or two conditions, we construct a B\"{o}ttcher coordinate on an invariant region that conjugates $f$ to a monomial map. For the superattracting case, the monomial map and the region are determined by the order of $p$ and the Newton polygon of $q$. The closure of the region contains the superattracting fixed point and is included in the attracting basin. For the polynomial case, the monomial map and the region are determined by the degree of $p$ and a Newton polygon of $q$. The region is included in the attracting basin of a superattracting fixed or indeterminacy point at infinity, or in the closure of the attracting basins of two points at infinity.
+\vskip8mm
+
+\newpage
+
+\noindent {\bf 青井 顕宏 (和歌山工業高等専門学校)}\\
+Microscopic stability thresholds and constant scalar curvature Kähler metrics
+\vskip3mm
+Fano多様体上のKähler-Einstein計量の存在は, 多くの数学者の貢献の下, 一様K安定性と呼ばれる代数幾何学的安定性によって特徴づけられることが知られている. 一方Bermanによって, Kähler-Einstein計量に対する統計力学的視点に基づく新しいアプローチが開拓され, 一様Gibbs安定性が導入された. これに対して, 藤田-尾高は一様Gibbs安定なFano多様体は一様K安定であり, Kähler-Einstein計量を持つことを2018年に証明した. さらに2024年にBermanによって一様K安定性を経由しない, 直接的かつ解析的な証明が与えられた. 本講演ではBermanが示した上記結果の一般化を目指し, Bermanによって導入された不変量が適切な意味で十分大きければ, 定スカラー曲率Kähler計量が存在することを述べ, これがKewei ZhangによるDelta不変量に対する結果の類似となっていることを説明する.
+\vskip10mm
+
+\noindent{\large \bf 12/15 (日曜日)}
+\vskip3mm
+\noindent {\bf 奥間 智弘 (山形大学)}\\
+正規複素曲面特異点の正規還元種数について
+\vskip3mm
+正規複素曲面特異点の正規還元種数 (normal reduction number) は特異点の局所環の不変量であるが, 特異点解消空間におけるサイクル (例外集合に台をもつ因子) のイデアル層のコホモロジーを用いて表示できる．この不変量は有理特異点を特徴づけ，底点を持たないサイクルの section ring の生成系の次数を評価するなど，特異点の研究において重要な役割を果たすと考えられる．しかしながら，正規還元種数の計算方法などは現時点ではあまり知られていない．本セミナーではこの不変量に関する基本的な結果を紹介し，位相不変量を用いた上限について述べる．その内容は吉田健一氏 (日大文理) と渡辺敬一氏 (日大文理, 明大・知財戦略機構) との共同研究によるものである．
+
+\vskip8mm
+
+\noindent {\bf 杉山 俊 (北九州工業高等専門学校)}\\
+Holomorphic line bundles and divisors on Riemann domains over Cohen-Macaulay Stein spaces
+\vskip3mm
+Let $(D, \pi)$ be a Riemann domain over a Cohen-Macaulay Stein space of pure dimension $n$.
+Assume that $H^k(D,\mathcal{O}_D) = 0$ for $2 \le k \le n - 1$ and any holomorphic line bundle over $(D,\pi)$ is associated to some Cartier divisor.
+Then, we prove that $D$ is locally Stein for every regular boundary point.
+\vskip8mm
+
+
+
+
+\end{document}

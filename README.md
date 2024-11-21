@@ -20,19 +20,40 @@
 ## スケジュール
 ### 2024年12月13日（金）
 
-1. 13:00--14:00 TBA
-2. 14:30--15:30 TBA
-3. 16:00--17:00 TBA
+1. 13:00--14:00 
+**丸亀 泰二 (電気通信大学)**<br>
+Chains on twistor CR manifolds and conformal geodesics in dimension three
+2. 14:30--15:30 
+**松田 凌 (京都大学)**<br>
+退化擬等角写像のタイヒミュラー空間論に向けて
+3. 16:00--17:00 
+**渡邊 祐太 (中央大学)**<br>
+Bigness of adjoint linear subsystem and approximation theorems with ideal sheaves on
+weakly pseudoconvex manifolds
 
 ### 2024年12月14日（土）
-1. 10:00--11:00 TBA
-2. 11:30--12:30 TBA
-3. 14:30--15:30 TBA
-4. 16:00--17:00 TBA
+1. 10:00--11:00 
+**山ノ井 克俊 (大阪大学)**<br>
+準アーベル多様体から作られるspecial 多様体について
+2. 11:30--12:30 
+**鈴木 良明 (新潟大学)**<br>
+The spectrum of the Folland-Stein operator on some Heisenberg Bieberbach manifolds
+3. 14:30--15:30 
+**上野 康平 (大同大学)**<br>
+Newton polygons and B¨ottcher coordinates for skew products: superattracting case and
+polynomial case
+4. 16:00--17:00 
+**青井 顕宏 (和歌山工業高等専門学校)**<br>
+Microscopic stability thresholds and constant scalar curvature K¨ahler metrics
 
 ### 2024年12月15日（日）
-1. 10:00--11:00 TBA
-2. 11:30--12:30 TBA
+1. 10:00--11:00 
+**奥間 智弘 (山形大学)**<br>
+正規複素曲面特異点の正規還元種数について
+2. 11:30--12:30 
+**杉山 俊 (北九州工業高等専門学校)**<br>
+Holomorphic line bundles and divisors on Riemann domains over Cohen-Macaulay Stein
+spaces
 
 
 <!--
@@ -88,8 +109,11 @@ Kodaira vanishing for smooth Fano threefolds in positive characteristic
 
 ##  プログラム
 
-2024年11月下旬にお知らせいたします. 
+[2024年度多変数関数論冬セミナーのプログラム](https://masataka123.github.io/2024scvwinter/material/program_2024scvwinter.pdf)
 
+<!--
+2024年11月下旬にお知らせいたします. 
+-->
 <!--
 Here is the PDF file of program and abstracts. [Program](https://masataka123.github.io/tangent_anticanonical/material/program_tangent_anticanonical.pdf)
 -->
