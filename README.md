@@ -40,11 +40,11 @@ weakly pseudoconvex manifolds
 The spectrum of the Folland-Stein operator on some Heisenberg Bieberbach manifolds
 3. 14:30--15:30 
 **上野 康平 (大同大学)**<br>
-Newton polygons and B¨ottcher coordinates for skew products: superattracting case and
+Newton polygons and Bottcher coordinates for skew products: superattracting case and
 polynomial case
 4. 16:00--17:00 
 **青井 顕宏 (和歌山工業高等専門学校)**<br>
-Microscopic stability thresholds and constant scalar curvature K¨ahler metrics
+Microscopic stability thresholds and constant scalar curvature Kahler metrics
 
 ### 2024年12月15日（日）
 1. 10:00--11:00 
