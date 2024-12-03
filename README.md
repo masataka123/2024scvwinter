@@ -105,7 +105,7 @@ Kodaira vanishing for smooth Fano threefolds in positive characteristic
 - 場所：らふぉれ（大阪大学豊中キャンパス内）
 - 会費：学生・ポスドク2,000円、その他5,000円の予定
 
-懇親会に参加される方は**11月27日(水)までに**こちらの[Google フォーム](https://forms.gle/xzvVCPdJbb9NB7oe6)に参加登録をしていただければ幸いです. 
+懇親会に参加される方は**12月9日(月)までに**こちらの[Google フォーム](https://forms.gle/xzvVCPdJbb9NB7oe6)に参加登録をしていただければ幸いです. 
 
 ##  プログラム
 
