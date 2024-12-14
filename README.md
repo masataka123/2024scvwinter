@@ -2,7 +2,7 @@
 
 ## 情報
 - 日時: 2024年12月13日（金）午後 -- 15日（日）午前
-- 場所: 大阪大学 南部陽一郎ホール (豊中キャンパス)
+- 場所: 大阪大学 南部陽一郎ホール (豊中キャンパス J棟) 
 
 ## 講演者
 - 青井 顕宏 (和歌山工業高等専門学校)
@@ -127,7 +127,7 @@ Here is the PDF file of program and abstracts. [Program](https://masataka123.git
 2.  石橋阪大前駅 (阪急電鉄)からくる方法
 駅から徒歩30分程度かかります.石橋阪大前駅からのアクセス方法に関しては [こちら](https://masataka123.github.io/2024scvwinter/material/access_ishibashi.pdf)をご覧ください. 
 
-
+南部陽一郎ホールはJ棟にあり, ローソンのある建物が目印です. 
 さらなる情報に関しては[南部陽一郎ホールのページ](https://www.sci.osaka-u.ac.jp/ja/nambu-hall/)をご覧ください. 
 
 
